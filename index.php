@@ -1,7 +1,7 @@
 <form action="show.php">
         What's Your Name?:<input type="text" name="name">.<br>
-        How old are You?:<input type="text" name="age">.<br>
-        Your Gender:
+        What Your Age?:<input type="text" name="age">.<br>
+        Gender:
         <input type="radio" name="gender" value="female">female
         <input type="radio" name="gender" value="male">male<br>
         Status:
