@@ -9,36 +9,36 @@
     $status=$_GET["status"];
     if ($age < "15" && $gender == "male" && $status == "unmarried"){
         $titaltxt="mstr.";
-        $gender = "man";
-        $status="unmarry";
+        $gender = "male";
+        $status="unmarried";
     }else if($age > "14" && $gender == "male" && $status == "unmarried"){
         $titaltxt="mr.";
         $gender = "man";
-        $status="unmarry";
+        $status="unmarried";
     }else if($age > "14" && $gender == "male" && $status == "married"){
         $titaltxt="mr.";
-        $gender = "man";
-        $status="marry";
+        $gender = "male";
+        $status="married";
     }else if($age < "15" && $gender == "male" && $status == "married"){
         $titaltxt="mstr.";
-        $gender = "man";
-        $status="marry";
+        $gender = "male";
+        $status="married";
     }else if($age < "15" && $gender == "female" && $status == "unmarried"){
         $titaltxt="miss.";
         $gender = "female";
-        $status="unmarry";
+        $status="unmarried";
     }else if($age > "14" && $gender == "female" && $status == "unmarried"){
         $titaltxt="miss.";
         $gender = "female";
-        $status="unmarry";
+        $status="unmarried";
     }else if($age > "14" && $gender == "female" && $status == "married"){
         $titaltxt="mrs.";
         $gender = "female";
-        $status="marry";
+        $status="married";
     }else if($age < "15" && $gender == "female" && $status == "married"){
         $titaltxt="miss.";
         $gender = "female";
-        $status="marry";
+        $status="married";
     }
     echo "<font style='font-size:24px'>ข้อมูลของคุณ</font>"."<br>";
     echo "Name:".$titaltxt.$name."<br>";
